@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ユーザー登録</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section>
+        <form method="POST" action="register.php">
+            <h1>新規登録</h1>
+
+            <!-- メールアドレス -->
+            <div class="inputbox">
+                <input type="email" name="email" required>
+                <label for="">メールアドレス</label>
+            </div>
+
+            <!-- パスワード -->
+            <div class="inputbox">
+                <input type="password" name="password" required>
+                <label for="">パスワード</label>
+            </div>
+
+            <!-- パスワード確認 -->
+            <div class="inputbox">
+                <input type="password" name="confirm_password" required>
+                <label for="">パスワード確認</label>
+            </div>
+
+            <button type="submit">登録</button>
+
+            <div class="login">
+                <p>すでにアカウントをお持ちですか？ <a href="login.html">ログイン</a></p>
+            </div>
+        </form>
+    </section>
+</body>
+</html>
